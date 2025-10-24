@@ -1,0 +1,14 @@
+C:\Users\46522597861\Desktop\BackEndMoura\LDExercicio1\bin\Debug\net9.0\LDExercicio1.exe
+C:\Users\46522597861\Desktop\BackEndMoura\LDExercicio1\bin\Debug\net9.0\LDExercicio1.deps.json
+C:\Users\46522597861\Desktop\BackEndMoura\LDExercicio1\bin\Debug\net9.0\LDExercicio1.runtimeconfig.json
+C:\Users\46522597861\Desktop\BackEndMoura\LDExercicio1\bin\Debug\net9.0\LDExercicio1.dll
+C:\Users\46522597861\Desktop\BackEndMoura\LDExercicio1\bin\Debug\net9.0\LDExercicio1.pdb
+C:\Users\46522597861\Desktop\BackEndMoura\LDExercicio1\obj\Debug\net9.0\LDExercicio1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46522597861\Desktop\BackEndMoura\LDExercicio1\obj\Debug\net9.0\LDExercicio1.AssemblyInfoInputs.cache
+C:\Users\46522597861\Desktop\BackEndMoura\LDExercicio1\obj\Debug\net9.0\LDExercicio1.AssemblyInfo.cs
+C:\Users\46522597861\Desktop\BackEndMoura\LDExercicio1\obj\Debug\net9.0\LDExercicio1.csproj.CoreCompileInputs.cache
+C:\Users\46522597861\Desktop\BackEndMoura\LDExercicio1\obj\Debug\net9.0\LDExercicio1.dll
+C:\Users\46522597861\Desktop\BackEndMoura\LDExercicio1\obj\Debug\net9.0\refint\LDExercicio1.dll
+C:\Users\46522597861\Desktop\BackEndMoura\LDExercicio1\obj\Debug\net9.0\LDExercicio1.pdb
+C:\Users\46522597861\Desktop\BackEndMoura\LDExercicio1\obj\Debug\net9.0\LDExercicio1.genruntimeconfig.cache
+C:\Users\46522597861\Desktop\BackEndMoura\LDExercicio1\obj\Debug\net9.0\ref\LDExercicio1.dll

@@ -1,0 +1,14 @@
+C:\Users\46522597861\Desktop\BackEndMoura\Desafio15\bin\Debug\net9.0\Desafio15.exe
+C:\Users\46522597861\Desktop\BackEndMoura\Desafio15\bin\Debug\net9.0\Desafio15.deps.json
+C:\Users\46522597861\Desktop\BackEndMoura\Desafio15\bin\Debug\net9.0\Desafio15.runtimeconfig.json
+C:\Users\46522597861\Desktop\BackEndMoura\Desafio15\bin\Debug\net9.0\Desafio15.dll
+C:\Users\46522597861\Desktop\BackEndMoura\Desafio15\bin\Debug\net9.0\Desafio15.pdb
+C:\Users\46522597861\Desktop\BackEndMoura\Desafio15\obj\Debug\net9.0\Desafio15.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46522597861\Desktop\BackEndMoura\Desafio15\obj\Debug\net9.0\Desafio15.AssemblyInfoInputs.cache
+C:\Users\46522597861\Desktop\BackEndMoura\Desafio15\obj\Debug\net9.0\Desafio15.AssemblyInfo.cs
+C:\Users\46522597861\Desktop\BackEndMoura\Desafio15\obj\Debug\net9.0\Desafio15.csproj.CoreCompileInputs.cache
+C:\Users\46522597861\Desktop\BackEndMoura\Desafio15\obj\Debug\net9.0\Desafio15.dll
+C:\Users\46522597861\Desktop\BackEndMoura\Desafio15\obj\Debug\net9.0\refint\Desafio15.dll
+C:\Users\46522597861\Desktop\BackEndMoura\Desafio15\obj\Debug\net9.0\Desafio15.pdb
+C:\Users\46522597861\Desktop\BackEndMoura\Desafio15\obj\Debug\net9.0\Desafio15.genruntimeconfig.cache
+C:\Users\46522597861\Desktop\BackEndMoura\Desafio15\obj\Debug\net9.0\ref\Desafio15.dll
