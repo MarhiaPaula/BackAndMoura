@@ -35,6 +35,9 @@ do
             Sacar();
             break;
         case 4:
+            Transferir();
+            break;
+        case 5:
             ListarCliente();
             break;
         default:
@@ -56,6 +59,7 @@ void CadastrarCliente()
         return;
     }
 
+    Console.WriteLine("posicao: " + totalClientes);
     // cadastrar o cliente no array
     Console.Write($"Nome do cliente: ");
     nomes[totalClientes] = Console.ReadLine();//cadastra o nome do cliente
@@ -74,12 +78,12 @@ void Depositar()
         return;
     }
 
-
+    System.Console.WriteLine("teste: " + idCliente);
 
     Console.Write($"Valor para deposito");
     float valor = float.Parse(Console.ReadLine());
-    saldos[idCliente] = valor;
-    Console.WriteLine($"Depósito de R$ `{valor:F2} realizado");
+    saldos[idCliente] += valor;
+    Console.WriteLine($"Depósito de R$ {valor:F2} realizado");
 
 }
 
@@ -88,7 +92,7 @@ void Depositar()
 void Sacar()
 {
     int idCliente = BuscarCliente();
-    if (idCliente == -1) ;
+    if (idCliente == -1)
     {
         return;
     }
@@ -96,16 +100,14 @@ void Sacar()
     Console.Write($"Valor para saque: ");
     float valor = float.Parse(Console.ReadLine());
 
-    if (saldos[idCliente] >= valor && valor >0)
+    if (saldos[idCliente] >= valor && valor > 0)
     {
         saldos[idCliente] -= valor;
         Console.WriteLine($"Saque realizado com sucesso");
     }
     else
     {
-
-
-
+        Console.WriteLine($"Saldo insuficiente");
     }
 }
 void Transferir()
@@ -123,7 +125,7 @@ void Transferir()
     Console.Write($"Valor para transferir");
     float valor = float.Parse(Console.ReadLine());
 
-    if (saldos[idDestino] >= valor && valor > 0)
+    if (saldos[idOrigem] >= valor && valor > 0)
     {
         saldos[idOrigem] -= valor;
         saldos[idDestino] += valor;
@@ -133,7 +135,7 @@ void Transferir()
     else
     {
         Console.WriteLine($"Saldo insuficiente");
-        
+
     }
 
 }
@@ -158,9 +160,8 @@ int BuscarCliente()
     {
         Console.WriteLine($"Cliente não encontrado!");
         return -1;
-
     }
 
 
-    return 0;
+    return idCliente;
 }
