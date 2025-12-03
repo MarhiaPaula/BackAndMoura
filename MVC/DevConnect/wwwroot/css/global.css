@@ -1,0 +1,176 @@
+/*1 forma de utilixar uma fonte*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+/*2 forma de utilixar uma fonte*/
+@font-face {
+    font-family: Josefin Sans;
+    src: url(../assets/fonts/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf),
+        url(../assets/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+}
+
+:root {
+    --cor-azul-escuro: #687a92;
+    --cor-azul-claro: #8597A5;
+    --cor-beje: #ECDFCC;
+    --cor-azul: #E3CAAB;
+    --cor-beje1: #C1AD94;
+
+    --borda: 1px solid #000;
+    --borda-arredondada: 2px;
+
+    --tamanho-fonte-lg: 20px;
+    --tamanho-fonte-md: 16px;
+    --tamanho-fonte-sm: 14px;
+
+}
+
+* {
+    padding: 0;
+    /*espaçamento interno*/
+    margin: 0;
+    /*espaçamento externo*/
+    box-sizing: border-box;
+    /*atribui espaços internos e externos e bordas no tamanho final do box*/
+    font-family: "Josefin Sans", sans-serif;
+    outline-color: #C1AD94;
+}
+
+body {
+    background-color: var(--cor-beje);
+}
+
+h1 {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+
+}
+
+/* formulario */
+.formulario-botao-azul {
+    background-color: var(--cor-azul-escuro);
+    border-radius: var(--borda-arredondada);
+    height: 35px;
+    color: var(--cor-beje);
+    font-size: var(--tamanho-fonte-sm);
+    border: none;
+}
+
+.formulario-campos>input {
+    border: var(--borda);
+    height: 35px;
+    background-color: var(--cor-beje);
+
+    color: var(--cor-beje);
+    font-size: var(--tamanho-fonte-sm);
+    border-radius: var(--borda-arredondada);
+}
+
+.formulario-campos>label {
+    font-size: var(--tamanho-fonte-sm);
+    color: var(--cor-azul);
+    font-weight: 600;
+}
+
+.estilo-formulario {
+    background-color: var(--cor-azul-claro);
+    border: var(--borda);
+    width: 100%;
+
+}
+
+#campo-upload {
+    display: none;
+}
+
+
+#texto-upload{
+    display: inline-block;
+    width: 100%;
+    max-width: 300px;
+    min-height: 35px;
+    height: 35px;
+    background-color: var(--cor-azul);
+    padding: 5px;
+    border-radius: var(--borda-arredondada);
+    font-weight: 500;
+}
+
+.formulario-botao-cadastro {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--cor-azul-escuro);
+    border: none;
+
+}
+
+/*cabecalho*/
+#cabecalho {
+    background-color: var(--cor-azul-claro);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    border-bottom: var(--borda);
+
+}
+
+#cabecalho>nav {
+    /* background-color: blueviolet; */
+    width: 85%;
+    max-width: 900px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo-mobile {
+    display: none;
+}
+
+.cabecalho-acoes {
+    /* background-color: cadetblue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+
+}
+
+.cabecalho-acoes>a {
+    display: flex;
+    align-items: center;
+
+}
+
+.foto-perfil {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+   
+}
+
+.foto-perfil-grande{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+   
+}
+
+
+
+/* RESPONSIVO */
+@media only screen and (max-width: 500px){
+    #logo-mobile {
+        display: initial;
+    }
+
+    #logo-desktop{
+        display: none;
+    }
+}
